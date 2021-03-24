@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  background-color: #424242;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+.history {
+  padding: 10px;
+}
+
+.history-item {
+  height: 30px;
+}
+
+.history-item-decoration {
+  margin-right: 10px;
+  color: lightskyblue;
+}
+
+.input-container {
+  padding: 10px;
+  color: lightskyblue;
+}
+
+.input {
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 500px;
+  transition: ease-in-out, width 0.35s ease-in-out;
+  background-color: #424242;
+}
+
+.input:focus {
+  color: white;
+  outline: none;
+  border: 1px solid 719ece;
+  box-shadow: 0 0 5px #719ece;
+}
